@@ -1,0 +1,52 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2018-07-08-10-01-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1510026416.507316	-	-	-	-	-	unknown_packet_type	-	F	bro
+1510026419.683995	-	-	-	-	-	unknown_protocol_139	-	F	bro
+1510026424.343427	CathbA1tNylYVrMGej	10.0.6.222	49487	8.8.4.4	53	dns_unmatched_reply	-	F	bro
+1510026424.461268	CZl2l12BTQ4sduf1yi	10.0.6.222	39060	64.233.188.188	5228	bad_TCP_checksum	-	F	bro
+1510026426.048287	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026426.957623	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026426.957623	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026428.454645	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026428.454645	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026430.639687	CJvMW92Sd8faaTa0Ng	10.0.6.166	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1510026433.401590	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026434.940546	CwnuSq1QO0kEONL4jl	10.0.6.109	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1510026434.940648	C1uCrg3c57fF8jFza5	fe80::1056:7c20:2d8f:bfda	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1510026436.420000	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026437.290881	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026439.207315	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026439.207315	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026439.415386	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026439.415386	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026444.351880	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026444.831231	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026444.831231	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026444.942788	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026446.717391	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026446.717391	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026447.740174	Ci0CUe2x0JAcVBjvZ7	10.0.6.197	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1510026447.740229	CWYbDqVPfWb4R2BPd	fe80::1c00:e10:8d68:375d	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1510026450.663069	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026454.498338	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026454.762597	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026454.762597	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026454.960731	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026457.741783	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026457.741783	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026458.196648	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026466.340832	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026468.029626	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026475.739920	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026475.739920	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026475.739920	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026475.739920	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026475.739920	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1510026475.739920	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2018-07-08-10-01-04

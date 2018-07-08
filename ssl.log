@@ -1,0 +1,162 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2018-07-08-10-01-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	vector[string]	vector[string]	string	string	string	string
+1510026424.859337	Cmt6u22LGa3Fjh36c6	10.0.6.222	48386	216.58.221.138	443	-	-	-	www.googleapis.com	F	-	-	F	-	-	-	-	-	-
+1510026431.363507	Ct2PEB3cC3pYN8bUP9	10.0.6.222	54196	104.20.65.63	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	unknown-29	media.phimbathu.com	F	-	h2	T	FJ8Ul02tltQg34f1Vg,F00pVy1pqJo3uNhwMj,FyRW2S1iXrqys6oWQ	(empty)	CN=ssl404704.cloudflaressl.com,OU=PositiveSSL Multi-Domain,OU=Domain Control Validated	CN=COMODO ECC Domain Validation Secure Server CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	-	-
+1510026431.523904	CNmUN31nBGGj9Lhrkc	10.0.6.222	46516	195.93.42.2	443	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	adserver.adtech.de	F	-	-	T	FeRG0e1YU9DL6mCWnk,F3hXNW2kGunz0riM1b,FTwaFq1HWG5phswRT2	(empty)	CN=adserver.adtech.de,O=ADTECH Gmbh.,L=Dulles,ST=Virginia,C=US	CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US	-	-
+1510026431.523848	Cequ7D4UqN2ysyZJo6	10.0.6.222	46520	195.93.42.2	443	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	adserver.adtech.de	F	-	-	T	FtfKCr1qnNIwL3Al3h,FwCr6KAZUIzEBTxvk,Fs1EN22ccCZdXWtHS	(empty)	CN=adserver.adtech.de,O=ADTECH Gmbh.,L=Dulles,ST=Virginia,C=US	CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US	-	-
+1510026431.523945	CUhCuZ1zcAvDrIS5u6	10.0.6.222	46510	195.93.42.2	443	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	adserver.adtech.de	F	-	-	T	Fpi7Sd1nf3YyBSDVa7,Fdat3i4zURuvooiGuf,FJd8HZLDbLgfbmLW3	(empty)	CN=adserver.adtech.de,O=ADTECH Gmbh.,L=Dulles,ST=Virginia,C=US	CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US	-	-
+1510026431.523989	CEdXNC3kv5VQG9fvFf	10.0.6.222	46518	195.93.42.2	443	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	adserver.adtech.de	F	-	-	T	FDg4oS3jWefWAXxSx,FRrrvu2bmKkTDhPgv4,FulSGE4gP3l8YW0lKj	(empty)	CN=adserver.adtech.de,O=ADTECH Gmbh.,L=Dulles,ST=Virginia,C=US	CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US	-	-
+1510026431.531992	CCuea29G376fJWLKf	10.0.6.222	46512	195.93.42.2	443	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	adserver.adtech.de	F	-	-	T	F2JvWQ1DnZBSQZIHT6,FiFFxQA59xcn5fJ4d,Fg2XYVmumgkb0MaQi	(empty)	CN=adserver.adtech.de,O=ADTECH Gmbh.,L=Dulles,ST=Virginia,C=US	CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US	-	-
+1510026431.533026	CdmjgE4JDK1K7ychV9	10.0.6.222	46514	195.93.42.2	443	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	adserver.adtech.de	F	-	-	T	F2KP6V2sJK4Emhnzti,FIfh3p4XNmiUICIx12,FXrAM03AnY5vQjYMed	(empty)	CN=adserver.adtech.de,O=ADTECH Gmbh.,L=Dulles,ST=Virginia,C=US	CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US	-	-
+1510026432.864359	CHkTlq4SZK28zND8a6	10.0.6.222	59626	123.30.108.122	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	st-au.ants.vn	F	-	-	T	Fh7Ids2QMz25MgVXBe,FNYaQ8eQUOe3PDf9b,FSJxji3K2VlrGfOvc	(empty)	CN=*.ants.vn,O=Cong Ty TNHH Giai Phap Quang Cao Truc Tuyen ANTS,L=Ho Chi Minh,ST=Ho Chi Minh,C=VN	CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE	-	-
+1510026432.865206	CUarvfsLvX4N37Ujb	10.0.6.222	59628	123.30.108.122	443	-	-	-	st-au.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026433.005562	CgQW3H36rczNw3XtYa	10.0.6.222	43584	203.162.76.49	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	d.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026438.537221	CLULMoyFOXjffnomd	10.0.6.222	43222	203.162.76.57	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	prebid.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.537440	CigMW31EcrB3K6VO3c	10.0.6.222	43642	203.162.76.49	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	d.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.541216	CgKqxh4sDo5jDqMtd8	10.0.6.222	43646	203.162.76.49	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	d.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.541327	Cdh0aQ3w5hqS8nkOT8	10.0.6.222	43224	203.162.76.57	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	prebid.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.541407	Ch2YWC3OB1osSquz3e	10.0.6.222	43644	203.162.76.49	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	d.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.541472	Cy37Gb1d8As7y5Fmal	10.0.6.222	38426	61.28.231.198	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	wrapper.blueseed.tv	T	-	-	T	-	-	-	-	-	-
+1510026438.541695	CZBPvs3RdoE4B2qml4	10.0.6.222	38428	61.28.231.198	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	wrapper.blueseed.tv	T	-	-	T	-	-	-	-	-	-
+1510026438.541587	CoIRYPRbGWhvet1U	10.0.6.222	43226	203.162.76.57	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	prebid.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.541766	CjkRld2TJtcVTiFxJh	10.0.6.222	38430	61.28.231.198	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	wrapper.blueseed.tv	T	-	-	T	-	-	-	-	-	-
+1510026434.324899	Cmwu2uEtd5VnP4aMe	10.0.6.222	37546	216.58.221.227	443	-	-	-	ssl.gstatic.com	F	-	-	F	-	-	-	-	-	-
+1510026431.293105	CoKcltKuQyJEfxv5f	10.0.6.222	40254	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	F	-	-	F	-	-	-	-	-	-
+1510026439.575773	CMxT4E3XRLfOtyvWJ9	10.0.6.222	38866	123.30.108.123	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	c0-vcdn.anthill.vn	T	-	-	T	-	-	-	-	-	-
+1510026434.601627	C1MA4DUBAh2UIzPHc	10.0.6.222	38384	61.28.231.198	443	-	-	-	wrapper.blueseed.tv	F	-	-	F	-	-	-	-	-	-
+1510026439.809265	CmCXe730qwFgpxe473	10.0.6.222	59734	123.30.108.122	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	st-au.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026434.842581	CrJSC547kYhSHqK619	10.0.6.222	55186	216.58.221.228	443	-	-	-	www.google.com	F	-	-	F	-	-	-	-	-	-
+1510026425.026062	CMwEdD3T1uDAOpDX4e	10.0.6.222	40276	216.58.221.226	443	-	-	-	adservice.google.com.vn	F	-	-	F	-	-	-	-	-	-
+1510026425.026471	Cnptfh4BHKhRImoNe8	10.0.6.222	42354	216.58.221.225	443	-	-	-	lh3.googleusercontent.com	F	-	-	F	-	-	-	-	-	-
+1510026425.026677	C7n2IPSAGB3vdhkV	10.0.6.222	37384	216.58.221.227	443	-	-	-	www.gstatic.com	F	-	-	F	-	-	-	-	-	-
+1510026436.329179	CzkWY13Unh0b1CpiI1	10.0.6.222	43200	203.162.76.57	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	prebid.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026426.349119	C26aBT2aYeOFWeKns3	10.0.6.222	42376	216.58.221.225	443	-	-	-	lh5.googleusercontent.com	F	-	-	F	-	-	-	-	-	-
+1510026426.355819	CdSKqN17gm9bbxHuX5	10.0.6.222	42378	216.58.221.225	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	lh6.googleusercontent.com	F	-	h2	F	-	-	-	-	-	-
+1510026436.451886	C46zJD1qhk8lYgZoxi	10.0.6.222	43202	203.162.76.57	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	prebid.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026442.326618	Ccfb1p12UVm7TuQZIg	10.0.6.222	59750	123.30.108.122	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	t.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026427.601284	CZnNE24BXoAIojcO99	10.0.6.222	51464	216.58.221.238	443	-	-	-	clients6.google.com	F	-	-	F	-	-	-	-	-	-
+1510026427.644107	CoU9eBmYVOxxdc5E	10.0.6.222	51466	216.58.221.238	443	-	-	-	lh3.google.com	F	-	-	F	-	-	-	-	-	-
+1510026426.560718	CBog4hzxriKdXjKUf	10.0.6.222	42380	216.58.221.225	443	-	-	-	lh4.googleusercontent.com	F	-	-	F	-	-	-	-	-	-
+1510026443.148303	C5whv34DmJOnCfd8Of	10.0.6.222	45734	125.212.247.216	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	www.tinhte.vn	F	-	-	T	FzLmss2aXIhBjIHL2g,Fpk0wK3XgfKWwJFdae	(empty)	CN=tinhte.vn	CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US	-	-
+1510026443.163225	Cj81MH3Zy4OxG1zcFa	10.0.6.222	60662	125.212.247.175	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	tinhte.vn	F	-	-	T	FcNvO24tfWaOSLppV6,FUIt7j2FSHFamrk8Bf	(empty)	CN=tinhte.vn	CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US	-	-
+1510026443.326072	CLYH743cQbfUn0Iow3	10.0.6.222	43302	203.162.76.57	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	prebid.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026443.349561	C8MF1V2BqXR2C09Dgk	10.0.6.222	60672	125.212.247.175	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	tinhte.vn	T	-	-	T	-	-	-	-	-	-
+1510026443.352596	CCVSY23FDJQkMyNHn1	10.0.6.222	45752	125.212.247.216	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	www.tinhte.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.322650	CEV62B1rBLZxAxyHEi	10.0.6.222	43632	203.162.76.49	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	d.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026443.407731	CFtxST2VpL01E8H1r3	10.0.6.222	59782	123.30.108.122	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	t.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026443.430449	CwE5JN1GkBp7fNE8W5	10.0.6.222	60678	125.212.247.175	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	tinhte.vn	T	-	-	T	-	-	-	-	-	-
+1510026443.430620	CqfBmhs4uTPP56uTf	10.0.6.222	60680	125.212.247.175	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	tinhte.vn	T	-	-	T	-	-	-	-	-	-
+1510026438.326873	Cczc7H2nEuopo3Irc3	10.0.6.222	57284	203.162.76.220	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	au.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026443.436358	ClJ5cs44hw4AJ9puKa	10.0.6.222	60682	125.212.247.175	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	tinhte.vn	T	-	-	T	-	-	-	-	-	-
+1510026443.488460	CU4nRF1SaldF1iRTlk	10.0.6.222	40488	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	T	-	-	T	-	-	-	-	-	-
+1510026443.705394	CoRxF92BIKXbTpylOg	10.0.6.222	44884	104.25.139.25	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	unknown-29	photo2.tinhte.vn	F	-	h2	T	FoAZn61zHAxUQlaIMf,FRGii01LeIjf8xSTGh,Ff9aEf2fWH5A7qD5n7	(empty)	CN=ssl387427.cloudflaressl.com,OU=PositiveSSL Multi-Domain,OU=Domain Control Validated	CN=COMODO ECC Domain Validation Secure Server CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	-	-
+1510026444.141643	Cd7MdgHkGLyfu4C0b	10.0.6.222	60660	125.212.247.175	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	tinhte.vn	T	-	-	T	-	-	-	-	-	-
+1510026444.141820	COEv4CBFRyTLLPq2d	10.0.6.222	45732	125.212.247.216	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	www.tinhte.vn	T	-	-	T	-	-	-	-	-	-
+1510026439.434230	CNdG4s2wIaa7pGrDq4	10.0.6.222	59712	123.30.108.122	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	t.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026439.436662	CiRNEnZpRv4rWkhYd	10.0.6.222	38854	123.30.108.123	443	-	-	-	c0-vcdn.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026444.312879	Cih8oB3zhDydN7aiR9	10.0.6.222	40530	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	T	-	-	T	-	-	-	-	-	-
+1510026444.373330	CfMWn21gaLhyfZmeK2	10.0.6.222	40532	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	T	-	-	T	-	-	-	-	-	-
+1510026444.989104	CpzKbz1GaD52BJBkzj	10.0.6.222	40534	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	T	-	-	T	-	-	-	-	-	-
+1510026445.453351	CCzVl02YvkHk2eGFSi	10.0.6.222	40538	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	T	-	-	T	-	-	-	-	-	-
+1510026446.332072	CtgSed1We9Wba63Uwh	10.0.6.222	59830	123.30.108.122	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	t.ants.vn	T	-	-	T	-	-	-	-	-	-
+1510026431.105441	CdTEjp1xL3EMG7rJHg	10.0.6.222	33564	61.28.226.237	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	d2.hadarone.com	F	-	-	F	-	-	-	-	-	-
+1510026431.111341	CiJMSe3rvtVyjZcIy	10.0.6.222	33562	61.28.226.237	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	d2.hadarone.com	F	-	-	F	-	-	-	-	-	-
+1510026431.140675	CwPlG53kRqYT9oGzD2	10.0.6.222	51688	125.212.245.38	443	-	-	-	delivery.adnetwork.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.140757	CtAFpE2IlBVDiqeJj3	10.0.6.222	51692	125.212.245.38	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	delivery.adnetwork.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.137329	C0gELf2wOdcU6fKyDh	10.0.6.222	51684	125.212.245.38	443	-	-	-	delivery.adnetwork.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.140852	CHRQky1GRjpOH4HZLi	10.0.6.222	51690	125.212.245.38	443	-	-	-	delivery.adnetwork.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.141397	CN9Gmt2C5dtdkvgFsj	10.0.6.222	51686	125.212.245.38	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	delivery.adnetwork.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.363564	C715O63BOVCUn141p3	10.0.6.222	54202	104.20.65.63	443	-	-	-	media.phimbathu.com	F	-	-	F	-	-	-	-	-	-
+1510026431.363640	COQFtz1XWlRYZ3a1yj	10.0.6.222	54200	104.20.65.63	443	-	-	-	media.phimbathu.com	F	-	-	F	-	-	-	-	-	-
+1510026431.363608	CSYRF211WbATploQI2	10.0.6.222	54198	104.20.65.63	443	-	-	-	media.phimbathu.com	F	-	-	F	-	-	-	-	-	-
+1510026431.363679	CTnKD0297VgZ0fImRi	10.0.6.222	54204	104.20.65.63	443	-	-	-	media.phimbathu.com	F	-	-	F	-	-	-	-	-	-
+1510026431.368666	C5mv21M7fKn2Wr9fc	10.0.6.222	54194	104.20.65.63	443	-	-	-	media.phimbathu.com	F	-	-	F	-	-	-	-	-	-
+1510026431.147377	CgTHxF21zFdZw4C7Zk	10.0.6.222	49816	123.30.180.150	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	player.cliphub.io	F	-	http/1.1	F	-	-	-	-	-	-
+1510026431.147449	CT8OMt3v1cOcmwCGI	10.0.6.222	49818	123.30.180.150	443	-	-	-	player.cliphub.io	F	-	-	F	-	-	-	-	-	-
+1510026431.147522	Cif3Yc1xJXbkNtaiyh	10.0.6.222	49820	123.30.180.150	443	-	-	-	player.cliphub.io	F	-	-	F	-	-	-	-	-	-
+1510026431.147587	CICOds2dkdp7qup2a4	10.0.6.222	49822	123.30.180.150	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	player.cliphub.io	F	-	http/1.1	F	-	-	-	-	-	-
+1510026439.435015	CQYBue2zzadEBlr688	10.0.6.222	59714	123.30.108.122	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	t.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.285588	CEgTAQ3r8IW3ut4SB8	10.0.6.222	55568	54.255.154.87	443	-	-	-	tag.gammaplatform.com	F	-	-	F	-	-	-	-	-	-
+1510026431.290392	CmVmdpFYWnKJ9Ns4d	10.0.6.222	55566	54.255.154.87	443	-	-	-	tag.gammaplatform.com	F	-	-	F	-	-	-	-	-	-
+1510026431.290453	Cf236e1AgUFxasDp4l	10.0.6.222	55572	54.255.154.87	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA	-	tag.gammaplatform.com	F	-	-	F	-	-	-	-	-	-
+1510026431.290003	ChNBpQQZ3s1jJL3O	10.0.6.222	55570	54.255.154.87	443	-	-	-	tag.gammaplatform.com	F	-	-	F	-	-	-	-	-	-
+1510026431.294458	CZfBZc4QaHJWeQV4f9	10.0.6.222	40256	204.155.152.148	443	-	-	-	blueserving.com	F	-	-	F	-	-	-	-	-	-
+1510026431.298740	CM6wM34GWurSZmMtPf	10.0.6.222	40260	204.155.152.148	443	-	-	-	blueserving.com	F	-	-	F	-	-	-	-	-	-
+1510026431.305230	CXdRLq404H1xKmY8S5	10.0.6.222	40262	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	F	-	-	F	-	-	-	-	-	-
+1510026431.315040	C3eZmCKogc64qW91d	10.0.6.222	40258	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	F	-	-	F	-	-	-	-	-	-
+1510026431.317550	CGH3P82Cpp80XR4Ab7	10.0.6.222	40252	204.155.152.148	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	blueserving.com	F	-	-	F	-	-	-	-	-	-
+1510026431.284790	CRDTXh4hnbJEo2VwV7	10.0.6.222	55564	54.255.154.87	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA	-	tag.gammaplatform.com	F	-	-	F	-	-	-	-	-	-
+1510026443.194623	CUWNGZwq8lGAaG3t1	10.0.6.222	42242	222.255.27.52	443	-	-	-	lg1.logging.admicro.vn	F	-	-	F	-	-	-	-	-	-
+1510026433.280619	Cz0BYYV4DPajuw1D1	10.0.6.222	56406	31.13.78.17	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	staticxx.facebook.com	F	-	h2	F	-	-	-	-	-	-
+1510026433.718599	CwwfR03PV200EURlG3	10.0.6.222	56732	31.13.78.13	443	-	-	-	4-edge-chat.facebook.com	F	-	-	F	-	-	-	-	-	-
+1510026433.729792	CAMoAL1hdBrOlsv1si	10.0.6.222	53226	183.81.30.81	443	-	-	-	scontent.fhan2-2.fna.fbcdn.net	F	-	-	F	-	-	-	-	-	-
+1510026433.774841	C2sGAh375HJsJuxrr	10.0.6.222	56738	31.13.78.13	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	1-edge-chat.facebook.com	F	-	h2	F	-	-	-	-	-	-
+1510026431.103429	CBFhuv29eATXWOCdn5	10.0.6.222	33566	61.28.226.237	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	d2.hadarone.com	F	-	-	F	-	-	-	-	-	-
+1510026434.258628	CtKRby2RA6PVrdSVf5	10.0.6.222	51590	216.58.221.238	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	apis.google.com	F	-	h2	F	-	-	-	-	-	-
+1510026439.832001	CQNl412mkIq7vScpzi	10.0.6.222	40530	216.58.221.226	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	adservice.google.com.vn	F	-	h2	F	-	-	-	-	-	-
+1510026439.834159	CvnaYF2wLw1ZjDDZwl	10.0.6.222	42608	216.58.221.225	443	-	-	-	lh3.googleusercontent.com	F	-	-	F	-	-	-	-	-	-
+1510026438.974969	CsINDt3ooVK9X6DjZ	10.0.6.222	43738	68.232.45.48	443	-	-	-	ssl.p.jwpcdn.com	F	-	-	F	-	-	-	-	-	-
+1510026438.540036	CuaspE4ox0BJu7aEE9	10.0.6.222	57290	203.162.76.220	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	au.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026438.540786	Ctohc22qIuBHcCOud6	10.0.6.222	57286	203.162.76.220	443	-	-	-	au.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026438.536493	Ctqvj2iN2YMdBgauf	10.0.6.222	57288	203.162.76.220	443	-	-	-	au.ants.vn	F	-	-	F	-	-	-	-	-	-
+1510026470.921505	CkSDl54c1XHC9z9s29	10.0.6.222	39514	64.233.188.188	5228	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	mtalk.google.com	T	-	-	T	-	-	-	-	-	-
+1510026431.099651	CeQQzO1DiKmDrIxqji	10.0.6.222	57848	23.194.137.134	443	-	-	-	sb.scorecardresearch.com	F	-	-	F	-	-	-	-	-	-
+1510026434.145514	CLhs0s1HeaaiRpxmAg	10.0.6.222	50664	113.171.64.81	443	-	-	-	external.fhan4-1.fna.fbcdn.net	F	-	-	F	-	-	-	-	-	-
+1510026425.026617	C1Mhpb1qvOGXG2iLbl	10.0.6.222	51436	216.58.221.238	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	clients2.google.com	F	-	h2	F	-	-	-	-	-	-
+1510026437.817340	C3OUUF31QkAmfArmlj	10.0.6.222	42546	216.58.221.225	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	lh5.googleusercontent.com	F	-	h2	F	-	-	-	-	-	-
+1510026445.097030	Cscox63GfGjFnXQpq3	10.0.6.222	40614	216.58.221.226	443	-	-	-	www.googletagservices.com	F	-	-	F	-	-	-	-	-	-
+1510026439.453170	C6Gis3LAueiNnoc9c	10.0.6.222	38864	123.30.108.123	443	-	-	-	c0-vcdn.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026424.859506	CBJHe41FI1VfxUrv2c	10.0.6.222	59550	216.58.221.237	443	-	-	-	accounts.google.com	F	-	-	F	-	-	-	-	-	-
+1510026425.026146	CqwdSP3Dyed6P587V8	10.0.6.222	37382	216.58.221.227	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	www.google.com.vn	F	-	h2	F	-	-	-	-	-	-
+1510026424.477222	C6nrE83uOmZqRaeSu2	10.0.6.222	37366	216.58.221.227	443	-	-	-	clientservices.googleapis.com	F	-	-	F	-	-	-	-	-	-
+1510026443.430293	CGj3UI3wceYntwVt1f	10.0.6.222	40586	216.58.221.226	443	-	-	-	adservice.google.com	F	-	-	F	-	-	-	-	-	-
+1510026424.479345	Ctt2kB1mnh4mOjzoDi	10.0.6.222	58036	216.58.221.234	443	-	-	-	translate.googleapis.com	F	-	-	F	-	-	-	-	-	-
+1510026443.023476	CNuP2tdfFTEklWL6f	10.0.6.222	49964	123.30.180.150	443	-	-	-	player.cliphub.io	F	-	-	F	-	-	-	-	-	-
+1510026426.653715	C6A8rE10MWRfBxm3ei	10.0.6.222	39944	54.85.22.149	443	-	-	-	repo.zotero.org	F	-	-	F	-	-	-	-	-	-
+1510026439.235511	CBXaPc1meax95wSTOh	10.0.6.222	51654	216.58.221.238	443	-	-	-	clients4.google.com	F	-	-	F	-	-	-	-	-	-
+1510026443.429796	Cu8qm24UXNUNRpB4b9	10.0.6.222	40592	216.58.221.226	443	-	-	-	securepubads.g.doubleclick.net	F	-	-	F	-	-	-	-	-	-
+1510026443.428027	CncWP01AO8hgUX4Z5b	10.0.6.222	40584	216.58.221.226	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	adservice.google.com	F	-	h2	F	-	-	-	-	-	-
+1510026424.859431	CnI3oH2SyZML8mW2b3	10.0.6.222	48384	216.58.221.138	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	www.googleapis.com	F	-	h2	F	-	-	-	-	-	-
+1510026443.430518	CBI5zb4KwJJB4r6z77	10.0.6.222	40588	216.58.221.226	443	-	-	-	adservice.google.com	F	-	-	F	-	-	-	-	-	-
+1510026424.465325	CqV5gG2oeH1joEY2kj	10.0.6.222	54990	216.58.221.228	443	-	-	-	www.google.com	F	-	-	F	-	-	-	-	-	-
+1510026445.379722	CttQgF2QnSs2cn0JXk	10.0.6.222	51060	108.177.97.157	443	-	-	-	stats.g.doubleclick.net	F	-	-	F	-	-	-	-	-	-
+1510026431.099692	CycnP33dUBQbnOJFx3	10.0.6.222	57846	23.194.137.134	443	-	-	-	sb.scorecardresearch.com	F	-	-	F	-	-	-	-	-	-
+1510026439.453121	CjP8xF4PJYAuLrILi6	10.0.6.222	38862	123.30.108.123	443	-	-	-	c0-vcdn.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026434.842489	CvzybvJufWSqfMbNc	10.0.6.222	42534	216.58.221.225	443	-	-	-	s2.googleusercontent.com	F	-	-	F	-	-	-	-	-	-
+1510026439.452947	CVLcROhX4GS6nl7hd	10.0.6.222	38858	123.30.108.123	443	-	-	-	c0-vcdn.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026427.597694	Cpb4csnF8ktG35OVc	10.0.6.222	51462	216.58.221.238	443	-	-	-	drive.google.com	F	-	-	F	-	-	-	-	-	-
+1510026442.569904	CeqScv2AUQ7aGEOzo5	10.0.6.222	39950	54.179.163.119	443	-	-	-	serving.ruu-dee.com	F	-	-	F	-	-	-	-	-	-
+1510026432.788975	Cx7EIR38ZQcWRtho7g	10.0.6.222	51568	216.58.221.238	443	-	-	-	clients1.google.com	F	-	-	F	-	-	-	-	-	-
+1510026434.321057	CYrxvb2oSdeyAvLjS6	10.0.6.222	37544	216.58.221.227	443	-	-	-	ssl.gstatic.com	F	-	-	F	-	-	-	-	-	-
+1510026431.099426	CbHZzF1JP4W0xnUfnk	10.0.6.222	57844	23.194.137.134	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	sb.scorecardresearch.com	F	-	http/1.1	F	-	-	-	-	-	-
+1510026443.430766	CrBKWAxhP0bkABlF	10.0.6.222	42670	216.58.221.225	443	-	-	-	tpc.googlesyndication.com	F	-	-	F	-	-	-	-	-	-
+1510026431.141458	CwwUVu3g9LU7u67of4	10.0.6.222	32942	31.13.78.35	443	-	-	-	www.facebook.com	F	-	-	F	-	-	-	-	-	-
+1510026439.713322	CNmO551sQpk4NhaUq2	10.0.6.222	54306	222.255.122.55	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	e.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026439.453017	Cqxf1P3bqL0mtgiwzf	10.0.6.222	38860	123.30.108.123	443	-	-	-	c0-vcdn.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026425.026549	CA13wod03MdZPZMnd	10.0.6.222	37380	216.58.221.227	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	ssl.gstatic.com	F	-	h2	F	-	-	-	-	-	-
+1510026439.713236	CTjqUz1OaXF0t8y5gj	10.0.6.222	54308	222.255.122.55	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	e.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.099602	CHvqpZn3NVD7jUju1	10.0.6.222	57842	23.194.137.134	443	-	-	-	sb.scorecardresearch.com	F	-	-	F	-	-	-	-	-	-
+1510026443.856858	C2tGKXSyOkcTTsgc	10.0.6.222	53400	183.81.30.81	443	-	-	-	scontent.fhan2-2.fna.fbcdn.net	F	-	-	F	-	-	-	-	-	-
+1510026443.432553	Ci4yJf3zyARMkunQt5	10.0.6.222	42674	216.58.221.225	443	-	-	-	tpc.googlesyndication.com	F	-	-	F	-	-	-	-	-	-
+1510026439.437359	CpTmog4T1lRMfV6sO8	10.0.6.222	38856	123.30.108.123	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	-	c0-vcdn.anthill.vn	F	-	-	F	-	-	-	-	-	-
+1510026431.317122	CQ7vWf0Jz7tBe7Y1b	10.0.6.222	41628	104.20.66.63	443	-	-	-	phimbathu.com	F	-	-	F	-	-	-	-	-	-
+1510026427.125975	CtkMCI3xaHWylDx80f	10.0.6.222	51458	216.58.221.238	443	-	-	-	clients4.google.com	F	-	-	F	-	-	-	-	-	-
+1510026443.761560	CXWCQC4jzbpRi9M8q6	10.0.6.222	37704	216.58.221.227	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	fonts.gstatic.com	F	-	h2	F	-	-	-	-	-	-
+1510026431.099731	CxgaJU2ZsSybDY0CLd	10.0.6.222	57850	23.194.137.134	443	-	-	-	sb.scorecardresearch.com	F	-	-	F	-	-	-	-	-	-
+1510026432.668038	COtT5j404Qvyo0E8H8	10.0.6.222	51564	216.58.221.238	443	-	-	-	www.google-analytics.com	F	-	-	F	-	-	-	-	-	-
+1510026434.842541	C2AldEa0UeBSXc4m	10.0.6.222	55188	216.58.221.228	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	www.google.com	F	-	h2	F	-	-	-	-	-	-
+1510026432.686966	C6ftyRmaqkAaxuO9d	10.0.6.222	56396	31.13.78.17	443	-	-	-	connect.facebook.net	F	-	-	F	-	-	-	-	-	-
+1510026443.430378	COAPUrQAcMzqxgaXc	10.0.6.222	51740	216.58.221.238	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	plus.google.com	F	-	h2	F	-	-	-	-	-	-
+1510026426.345471	CFSBH23O6c25dkm3p1	10.0.6.222	51446	216.58.221.238	443	-	-	-	docs.google.com	F	-	-	F	-	-	-	-	-	-
+1510026431.099547	CkhGtH3WNQDKESMsGa	10.0.6.222	57840	23.194.137.134	443	-	-	-	sb.scorecardresearch.com	F	-	-	F	-	-	-	-	-	-
+1510026443.430689	CRyhaq1JCi7rLMNmCl	10.0.6.222	42672	216.58.221.225	443	-	-	-	tpc.googlesyndication.com	F	-	-	F	-	-	-	-	-	-
+1510026432.252131	CbmtmqQXuWfTzaZQd	10.0.6.222	58180	216.58.221.234	443	-	-	-	safebrowsing.googleapis.com	F	-	-	F	-	-	-	-	-	-
+1510026425.139961	CIV2es3moN5enI1Gm4	10.0.6.222	59564	216.58.221.237	443	-	-	-	accounts.google.com	F	-	-	F	-	-	-	-	-	-
+1510026433.875401	CBXLAC17unzcsfmSvk	10.0.6.222	53024	54.174.16.173	443	-	-	-	jwpltx.com	F	-	-	F	-	-	-	-	-	-
+#close	2018-07-08-10-01-04

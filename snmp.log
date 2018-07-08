@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2018-05-02-16-19-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1312970556.058479	CLA2dv2b3kLz1YOJ18	147.32.84.79	51033	147.32.84.165	161	3.008334	1	public	4	0	0	0	-	-
+1312974453.838061	CSQ8i63V1aTLC8Khnk	147.32.84.79	44158	147.32.84.165	161	3.008739	1	public	4	0	0	0	-	-
+1312978054.083771	Cc1sZW1px64bPpMwZ3	147.32.84.79	48629	147.32.84.165	161	3.009708	1	public	4	0	0	0	-	-
+1312981655.430122	C6W1ZdzqhTVy35aFi	147.32.84.79	38807	147.32.84.165	161	3.010803	1	public	4	0	0	0	-	-
+#close	2018-05-02-16-20-30
